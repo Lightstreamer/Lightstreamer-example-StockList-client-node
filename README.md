@@ -1,8 +1,8 @@
 # Lightstreamer StockList Demo Client for Node.js #
 
-This project includes a demo client showing integration between Lightstreamer JavaScript Client Library and the Node.js platform.<br>
+This project includes a demo client showing integration between <b>Lightstreamer JavaScript Client Library</b> and the <b>Node.js</b> platform.<br>
 
-The example provides a very simple version of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript) in which only 3 items are subscribed and only the fields "stock_name" and "last_price" are retrieved. The update values are printed on the console.
+The example provides a very simple version of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript) in which only 3 items are subscribed and only the "stock_name" and "last_price" fields are retrieved. The update values are printed on the console.
 
 # Deploy #
 
