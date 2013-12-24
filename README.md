@@ -1,5 +1,7 @@
 # Lightstreamer - Basic Stock-List Demo - Node.js Client #
 
+<!-- START DESCRIPTION lightstreamer-example-stocklist-client-node -->
+
 This project includes a demo client showing integration between <b>Lightstreamer JavaScript Client Library</b> and the <b>Node.js</b> platform.<br>
 
 The example provides a very simple version of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript) in which only 3 items are subscribed and only the "stock_name" and "last_price" fields are retrieved. The update values are printed on the console.
@@ -19,6 +21,8 @@ The Lightstreamer JavaScript Client Library relies on some external modules to r
 * npm install requirejs
 * npm install xmlhttprequest
 * npm install faye-websocket
+
+<!-- END DESCRIPTION lightstreamer-example-stocklist-client-node -->
     
 You can now run the included example. From the folder where index.js is simply run one of the following examples of script.
 * Windows machines:<br>
@@ -41,8 +45,11 @@ The application is configured to connect to http://localhost:8080. You can modif
 
 ## Lightstreamer Adapters needed by this demo client ##
 
+<!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+
+<!-- END RELATED_ENTRIES -->
 
 ## Similar demo clients that may interest you ##
 
