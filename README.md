@@ -12,7 +12,7 @@ The example provides a very simple version of the [Stock-List Demos](https://git
 
 In particular, this readme file details the steps required in order to execute the demo calling the node executable from the command line.
 
-## Getting started ##
+## Getting Started ##
 
 Before you can run the demo some dependencies need to be solved:
 
