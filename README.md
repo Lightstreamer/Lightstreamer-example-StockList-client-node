@@ -16,7 +16,7 @@ In particular, this readme file details the steps required in order to execute t
 
 Before you can run the demo some dependencies need to be solved:
 
-* Get the lightstreamer_node.js file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the "src" folder of this project.
+* Get the lightstreamer_node.js file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download), you can find it in "Lightstreamer/DOCS-SDKs/sdk_client_javascript/alternative_libs" folder, and put it in the "src" folder of this project.
 * Go to [http://nodejs.org/](http://nodejs.org/) or use the package manager of your OS to download and install the appropriate Node.js server on your system.
   
 The Lightstreamer JavaScript Client Library relies on some external modules to run on top of Node.js. Verify that npm was installed correctly together with Node.js (or install it now) and install the following modules:
