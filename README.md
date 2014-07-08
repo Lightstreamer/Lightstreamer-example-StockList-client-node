@@ -1,4 +1,4 @@
-# Lightstreamer - Basic Stock-List Demo - Node.js Client #
+# Lightstreamer - Basic Stock-List Demo - Node.js Client
 
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-node -->
 
@@ -6,13 +6,13 @@ This project includes a demo client showing integration between <b>Lightstreamer
 
 ![Screenshot](screen_node_large.png)<br>
 
+## Details
+
 The example provides a very simple version of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript) in which only 3 items are subscribed and only the "stock_name" and "last_price" fields are retrieved. The update values are printed on the console.
 
-# Deploy #
+## Install
 
 In particular, this readme file details the steps required in order to execute the demo calling the node executable from the command line.
-
-## Getting Started ##
 
 Before you can run the demo some dependencies need to be solved:
 
@@ -43,9 +43,9 @@ node index.js
 
 The application is configured to connect to http://localhost:8080. You can modify it to connect to the correct host:port of your Lightstreamer server.
 
-# See Also #
+## See Also
 
-## Lightstreamer Adapters Needed by this Demo Client ##
+### Lightstreamer Adapters Needed by this Demo Client
 
 <!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
@@ -53,7 +53,7 @@ The application is configured to connect to http://localhost:8080. You can modif
 
 <!-- END RELATED_ENTRIES -->
 
-## Related Projects ##
+### Related Projects
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
 * [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
@@ -62,6 +62,6 @@ The application is configured to connect to http://localhost:8080. You can modif
 * [Lightstreamer - Basic Stock-List Demo - .NET Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-dotnet)
 * [Lightstreamer - Stock-List Demos - Flex Clients](https://github.com/Weswit/Lightstreamer-example-StockList-client-flex)
 
-# Lightstreamer Compatibility Notes #
+## Lightstreamer Compatibility Notes
 
 - Compatible with Lightstreamer JavaScript Client API v. 6.0 or newer.
