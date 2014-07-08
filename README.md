@@ -6,7 +6,7 @@ This project includes a demo client showing integration between <b>Lightstreamer
 
 ![Screenshot](screen_node_large.png)<br>
 
-### Details
+## Details
 
 The example provides a very simple version of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript) in which only 3 items are subscribed and only the "stock_name" and "last_price" fields are retrieved. The update values are printed on the console.
 
