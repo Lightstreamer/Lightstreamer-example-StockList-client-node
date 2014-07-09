@@ -12,6 +12,7 @@ The example provides a very simple version of the [Stock-List Demos](https://git
 
 ## Install
 
+If you want to install a version of this demo pointing to your local Lightstreamer Server, follow these steps.
 In particular, this readme file details the steps required in order to execute the demo calling the node executable from the command line.
 
 Before you can run the demo some dependencies need to be solved:
