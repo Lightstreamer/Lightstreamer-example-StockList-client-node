@@ -17,7 +17,7 @@ In particular, this readme file details the steps required in order to execute t
 
 Before you can run the demo some dependencies need to be solved:
 
-* Get the lightstreamer_node.js file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download), you can find it in "Lightstreamer/DOCS-SDKs/sdk_client_javascript/alternative_libs" folder, and put it in the "src" folder of this project.
+* Get the `lightstreamer_node.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download), you can find it in `Lightstreamer/DOCS-SDKs/sdk_client_javascript/alternative_libs` folder, and put it in the `src` folder of this project.
 * Go to [http://nodejs.org/](http://nodejs.org/) or use the package manager of your OS to download and install the appropriate Node.js server on your system.
   
 The Lightstreamer JavaScript Client Library relies on some external modules to run on top of Node.js. Verify that npm was installed correctly together with Node.js (or install it now) and install the following modules:
@@ -27,7 +27,7 @@ The Lightstreamer JavaScript Client Library relies on some external modules to r
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-node -->
     
-You can now run the included example. From the folder where index.js is simply run one of the following examples of script.
+You can now run the included example. From the folder where `index.js` is simply run one of the following examples of script.
 * Windows machines:<br>
 
 ```sh
@@ -65,4 +65,4 @@ The application is configured to connect to http://localhost:8080. You can modif
 
 ## Lightstreamer Compatibility Notes
 
-- Compatible with Lightstreamer JavaScript Client API v. 6.0 or newer.
+* Compatible with Lightstreamer JavaScript Client API v. 6.0 or newer.
