@@ -37,6 +37,8 @@
   ],
   
   "dependencies": {
-    "requirejs": ">=2.0.0"
+    "requirejs": ">=2.0.0",
+    "xmlhttprequest": ">=1.6.0",
+    "faye-websocket": ">=0.7.2"
   }
 }
