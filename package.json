@@ -1,0 +1,42 @@
+{
+  "name": "lightstreamer-stocklist-client-node",
+  "version": "1.0.0",
+  "description": "Simple demo client showing integration between Lightstreamer JavaScript Client Library and the Node.js platform.",
+  "keywords": [
+    "lightstreamer",
+    "push",
+    "realtime",
+    "real-time",
+    "websocket",
+    "stock-list"
+  ],
+  
+  "homepage": "http://www.lightstreamer.com",
+  
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/Weswit/Lightstreamer-example-StockList-client-node" 
+  },
+  
+  "bugs": { 
+    "url" : "http://forum.lightstreamer.com/",
+    "email" : "support@lightstreamer.com"
+  },
+  
+  "author": { 
+    "name" : "Weswit Srl",
+    "email" : "support@lightstreamer.com"
+  },
+  
+  "files": ["README.md","src"],  
+  
+  "main": "index",
+    
+  "engines": [
+    "node"
+  ],
+  
+  "dependencies": {
+    "requirejs": ">=2.0.0"
+  }
+}
