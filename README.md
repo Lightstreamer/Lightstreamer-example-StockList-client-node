@@ -8,12 +8,12 @@ This project includes a demo client showing integration between <b>Lightstreamer
 
 ## Details
 
-The example provides a very simple version of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript) in which only 3 items are subscribed and only the "stock_name" and "last_price" fields are retrieved. The update values are printed on the console.
+The example provides a very simple version of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript), in which only 3 items are subscribed and only the "stock_name" and "last_price" fields are retrieved. The update values are printed on the console.
 
 ## Install
 
 If you want to install a version of this demo pointing to your local Lightstreamer Server, follow these steps.
-In particular, this readme file details the steps required in order to execute the demo calling the node executable from the command line.
+In particular, this readme file details the steps required to execute the demo calling the node executable from the command line.
 
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
@@ -26,7 +26,7 @@ In particular, this readme file details the steps required in order to execute t
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-node -->
     
-You can now run the included example. From the folder where `index.js` is simply run one of the following examples of script.
+You can now run the included example. From the folder where `index.js` is, simply run one of the following examples of script.
 * Windows machines:<br>
 
 ```sh
