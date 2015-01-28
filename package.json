@@ -10,35 +10,28 @@
     "websocket",
     "stock-list"
   ],
-  
   "homepage": "http://www.lightstreamer.com",
-  
-  "repository" : { 
-    "type" : "git", 
-    "url" : "https://github.com/Weswit/Lightstreamer-example-StockList-client-node" 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Weswit/Lightstreamer-example-StockList-client-node"
   },
-  
-  "bugs": { 
-    "url" : "http://forum.lightstreamer.com/",
-    "email" : "support@lightstreamer.com"
+  "bugs": {
+    "url": "http://forum.lightstreamer.com/",
+    "email": "support@lightstreamer.com"
   },
-  
-  "author": { 
-    "name" : "Weswit Srl",
-    "email" : "support@lightstreamer.com"
+  "author": {
+    "name": "Weswit Srl",
+    "email": "support@lightstreamer.com"
   },
-  
-  "files": ["README.md","src"],  
-  
+  "files": [
+    "README.md",
+    "src"
+  ],
   "main": "index",
-    
   "engines": [
     "node"
   ],
-  
   "dependencies": {
-    "requirejs": ">=2.0.0",
-    "xmlhttprequest": ">=1.6.0",
-    "faye-websocket": ">=0.7.2"
+    "lightstreamer-client": ">=6.2.3"
   }
 }

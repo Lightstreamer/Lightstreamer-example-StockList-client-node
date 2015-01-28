@@ -14,42 +14,33 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-var requirejs = require('requirejs');
+var ls = require('lightstreamer-client');
 
-requirejs.config({
-    deps: ["lightstreamer_node.js"],
-    nodeRequire: require
+
+var myClient = new ls.LightstreamerClient("http://localhost:8080","DEMO");  
+
+myClient.addListener({
+  onStatusChange: function(newStatus) {         
+    console.log(newStatus);
+  }
 });
 
-requirejs(["LightstreamerClient","Subscription"], 
-    function(LightstreamerClient,Subscription) {
-  
-  var testPP = new LightstreamerClient("http://localhost:8080","DEMO");  
- 
-  testPP.addListener({
-    onStatusChange: function(newStatus) {         
-      console.log(newStatus);
-    }
-  });
-  
-  testPP.connect();
- 
-  var testTable = new Subscription("MERGE",["item1","item2","item3"],["stock_name","last_price"]);
-  testTable.setDataAdapter("QUOTE_ADAPTER");
-  testTable.setRequestedSnapshot("yes");
-  
-  testTable.addListener({
-    onSubscription: function() {
-      console.log("SUBSCRIBED");
-    },
-    onUnsubscription: function() {
-      console.log("UNSUBSCRIBED");
-    },
-    onItemUpdate: function(obj) {
-      console.log(obj.getValue("stock_name") + ": " + obj.getValue("last_price"));
-    }
-  });
-  
-  testPP.subscribe(testTable);
- 
+myClient.connect();
+
+var testTable = new ls.Subscription("MERGE",["item1","item2","item3"],["stock_name","last_price"]);
+testTable.setDataAdapter("QUOTE_ADAPTER");
+testTable.setRequestedSnapshot("yes");
+
+testTable.addListener({
+  onSubscription: function() {
+    console.log("SUBSCRIBED");
+  },
+  onUnsubscription: function() {
+    console.log("UNSUBSCRIBED");
+  },
+  onItemUpdate: function(obj) {
+    console.log(obj.getValue("stock_name") + ": " + obj.getValue("last_price"));
+  }
 });
+
+myClient.subscribe(testTable);
