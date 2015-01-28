@@ -1,5 +1,5 @@
 /*
-Copyright 2013 Weswit Srl
+Copyright 2015 Weswit Srl
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -27,11 +27,11 @@ myClient.addListener({
 
 myClient.connect();
 
-var testTable = new ls.Subscription("MERGE",["item1","item2","item3"],["stock_name","last_price"]);
-testTable.setDataAdapter("QUOTE_ADAPTER");
-testTable.setRequestedSnapshot("yes");
+var mySubscription = new ls.Subscription("MERGE",["item1","item2","item3"],["stock_name","last_price"]);
+mySubscription.setDataAdapter("QUOTE_ADAPTER");
+mySubscription.setRequestedSnapshot("yes");
 
-testTable.addListener({
+mySubscription.addListener({
   onSubscription: function() {
     console.log("SUBSCRIBED");
   },
@@ -43,4 +43,4 @@ testTable.addListener({
   }
 });
 
-myClient.subscribe(testTable);
+myClient.subscribe(mySubscription);
