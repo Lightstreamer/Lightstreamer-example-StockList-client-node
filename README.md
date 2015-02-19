@@ -17,7 +17,7 @@ In particular, this readme file details the steps required to execute the demo c
 
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
-* Go to [http://nodejs.org/](http://nodejs.org/) or use the package manager of your OS to download and install the appropriate Node.js server on your system.
+* Go to [http://nodejs.org/](http://nodejs.org/) or use the package manager of your OS to download and install the appropriate Node.js server on your system. As an alternative you can use [io.js](https://iojs.org/) 
 * Get the `lightstreamer-client` package using npm
   * `npm install lightstreamer-client`
   or from the root folder of this project simply run
@@ -29,20 +29,12 @@ You can now run the included example. From the root folder of this project run
 ```sh
 node src/index.js
 ``` 
+or
+```sh
+iojs src/index.js
+```
 
 The application is configured to connect to http://localhost:8080. You can modify `src/index.js` to connect to the correct host:port of your Lightstreamer server.
-
-##io.js
-
-If you're running this project on io.js you might notice that the connection will fallback to HTTP-STREAMING instead of using WS-STREAMING (ie WebSockets).
-The reason behind this is that the http_parser native code does not, at the time of writing, run on io.js. Such package is used by the `websocket-driver-node`
-package that in turn is used by the `faye-websocket` package that is used by the `lightstreamer-client` package.
-
-As a temporary solution you can do the following:
-* Clone https://github.com/mone/websocket-driver-node in a new folder.
-* From such folder run `npm link`.
-* Come back to the folder of this project and run `npm link websocket-driver-node`.
-* Enjoy WebSockets.
 
 ## See Also
 
