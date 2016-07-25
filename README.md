@@ -2,7 +2,7 @@
 
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-node -->
 
-This project includes a demo client showing integration between <b>Lightstreamer JavaScript Client Library</b> and the <b>Node.js</b> platform.<br>
+This project includes a demo client showing integration between <b>Lightstreamer Node.js Client Library</b> and the <b>Node.js</b> platform.<br>
 
 ![Screenshot](screen_node_large.png)<br>
 
@@ -57,4 +57,4 @@ The application is configured to connect to http://localhost:8080. You can modif
 
 ## Lightstreamer Compatibility Notes
 
-* Compatible with Lightstreamer JavaScript Client API v. 6.0 or newer.
+* Compatible with Lightstreamer Node.js (formerly JavaScript) Client API v. 6.0 or newer.
