@@ -32,6 +32,6 @@
     "node"
   ],
   "dependencies": {
-    "lightstreamer-client": ">=6.2.3"
+    "lightstreamer-client-node": ">=8.0.0"
   }
 }

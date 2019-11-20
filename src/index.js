@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-var ls = require('lightstreamer-client');
+var ls = require('lightstreamer-client-node');
 
 
 var myClient = new ls.LightstreamerClient("http://localhost:8080","DEMO");  

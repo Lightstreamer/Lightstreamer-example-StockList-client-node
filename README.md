@@ -18,10 +18,10 @@ In particular, this readme file details the steps required to execute the demo c
 * Note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer Server.
 * Go to [http://nodejs.org/](http://nodejs.org/) or use the package manager of your OS to download and install the appropriate Node.js server on your system. 
-* Get the `lightstreamer-client` package using npm
-  * `npm install lightstreamer-client`
+* Get the `lightstreamer-client-node` package using npm
+  * `npm install lightstreamer-client-node`
   or from the root folder of this project simply run
-  * `npm install
+  * `npm install`
   
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-node -->
     
@@ -29,10 +29,6 @@ You can now run the included example. From the root folder of this project run
 ```sh
 node src/index.js
 ``` 
-or
-```sh
-iojs src/index.js
-```
 
 The application is configured to connect to http://localhost:8080. You can modify `src/index.js` to connect to the correct host:port of your Lightstreamer server.
 
