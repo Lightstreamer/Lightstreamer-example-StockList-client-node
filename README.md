@@ -53,4 +53,4 @@ The application is configured to connect to http://localhost:8080. You can modif
 
 ## Lightstreamer Compatibility Notes
 
-* Compatible with Lightstreamer Node.js (formerly JavaScript) Client API v. 6.0 or newer.
+* Compatible with Lightstreamer Node.js (formerly JavaScript) Client API v. 6.0 or newer (installation instructions for version 8.0 or newer).
