@@ -32,6 +32,6 @@
     "node"
   ],
   "dependencies": {
-    "lightstreamer-client-node": ">=8.0.0"
+    "lightstreamer-client-node": "^9.0.0-beta.1"
   }
 }
